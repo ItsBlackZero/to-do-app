@@ -1,0 +1,119 @@
+body{
+    font-family: "Poppins", sans-serif;
+}
+header{
+    position: relative;
+    background-color: #F1ECE6;
+    height: 100px;
+    width: 100vw;
+    box-sizing: border-box;
+}
+.titulo{
+    position: absolute;
+    margin: auto;
+    inset: 0;
+    height: 60px;
+    width: 230px;
+    box-sizing: border-box;
+}
+.caja-crear-to-do{
+    position: relative;
+    box-sizing: border-box;
+    height: 100px;
+    width: 100vw;
+    margin-top: 20px;
+    
+}
+.div-to-do{
+    position: absolute;
+    height: 78px;
+    width: 1040px;
+    margin:auto;
+    inset: 0;
+
+}
+.txt{
+    position: relative;
+    background-color: #F1ECE6;
+    border-radius: 50px;
+}
+#txt-crear-to-do{
+    height: 75px;
+    width: 900px;
+    background-color: #F1ECE6;
+    outline: none;
+    border: none;
+    border-radius: 50px;
+    font-size: 32px;
+    margin-left: 60px;
+}
+#btn-crear-to-do{
+    position: absolute;
+    right: 0px;
+    width: 140px;
+    height: 78px;
+    border-radius: 50px;
+    background-color: #76B7CD;
+    color: #ffffff;
+    border: none;
+    font-size: 32px;
+}
+.caja-to-do{
+    position: relative;
+    height: 600px;
+    width: 100vw;
+}
+.caja-result{
+    font-family: "Poppins", sans-serif;
+    position: relative;
+    height: 600px;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+}
+ul{
+    position: absolute;
+    height: 589px;
+    width: 1040px;
+    margin: auto;
+    inset: 0;
+    background-color: #F1ECE6;
+    border-radius: 50px;
+    
+}
+li{
+    position: relative;
+    top: 30px;
+    left: 45px;
+    right: 50px;
+    height: 88px;
+    width: 945px;
+    border-bottom: #76B7CD solid;
+    font-size: 32px;
+}
+input[type="checkbox"] {
+    -webkit-appearance: none; /* Elimina los estilos predeterminados del navegador */
+    -moz-appearance: none;
+    appearance: none;
+    width: 50px; /* Ajusta el tamaño del checkbox según sea necesario */
+    height: 50px;
+    border: 4px solid #aaa; /* Agrega un borde al checkbox */
+    border-radius: 50px; /* Redondea las esquinas */
+    border-color: #737373;
+    
+}
+input[type="checkbox"]:checked {
+    position: static;
+    border: none;
+    background-image: url(img/Check\ circle\ outline.png);
+       
+}
+li input{
+    margin-top: 35px;
+    
+}
+li label{
+    margin-left: 15px;
+    margin-right: 650px;
+    
+}
